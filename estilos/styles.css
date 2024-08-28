@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #6f4fef;
+    background-color: #737373;
 }
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #f1da49;
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
@@ -35,24 +35,26 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #f1da49;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: #1d0255;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
-    color: #fff;
+    color: #f1da49;
     text-decoration: none;
 }
 
 .content {
     padding: 80px 20px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .tech-logo {
@@ -62,6 +64,7 @@ nav ul li a:hover {
     transition: transform 0.3s;
     max-width: 50px;
     max-height: 50px;
+    color: #f1da49;
 }
 
 .tech-logo:hover {
@@ -70,13 +73,15 @@ nav ul li a:hover {
 
 .card {
     width: 100%;
-    background-color: rgba(208, 208, 208, 0.806);
+    background-color: #222222;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    margin: auto;
+    max-width: fit-content;
 }
 
 .card-img {
@@ -94,17 +99,29 @@ nav ul li a:hover {
 
 .card-content h2 {
     margin: 0 0 10px;
-    font-size: 24px;
-    color: #333;
+    font-size: 40px;
+    color: #f1da49;
 }
 
 .card-content p {
-    color: #666;
-    font-size: 16px;
+    color: #f1da49;
+    font-size: 18px;
 }
 
 h1{
-    color: #1d0255;
+    color: #f1da49;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: #f1da49;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    color: #f1da49;
     font-style: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
